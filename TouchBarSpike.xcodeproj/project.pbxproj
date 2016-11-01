@@ -13,6 +13,7 @@
 		EA69F8AB1DC7DA96005885AA /* TouchBarSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69F8AA1DC7DA96005885AA /* TouchBarSpikeTests.swift */; };
 		EA837ECC1DC8E98400218CBE /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA837ECB1DC8E98400218CBE /* WindowController.swift */; };
 		EA9F3FF11DC8EA8400DBFE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F3FF01DC8EA8400DBFE0C /* Constants.swift */; };
+		EA9F3FF31DC8EAB200DBFE0C /* NSTouchBarCustomizationIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F3FF21DC8EAB200DBFE0C /* NSTouchBarCustomizationIdentifierExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EA69F8AC1DC7DA96005885AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA837ECB1DC8E98400218CBE /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		EA9F3FF01DC8EA8400DBFE0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EA9F3FF21DC8EAB200DBFE0C /* NSTouchBarCustomizationIdentifierExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTouchBarCustomizationIdentifierExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EA837ECB1DC8E98400218CBE /* WindowController.swift */,
 				EA9F3FF01DC8EA8400DBFE0C /* Constants.swift */,
+				EA9F3FF21DC8EAB200DBFE0C /* NSTouchBarCustomizationIdentifierExtension.swift */,
 				EA837ECD1DC8EA1900218CBE /* Supporting Files */,
 			);
 			path = TouchBarSpike;
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA837ECC1DC8E98400218CBE /* WindowController.swift in Sources */,
+				EA9F3FF31DC8EAB200DBFE0C /* NSTouchBarCustomizationIdentifierExtension.swift in Sources */,
 				EA69F8991DC7DA96005885AA /* AppDelegate.swift in Sources */,
 				EA9F3FF11DC8EA8400DBFE0C /* Constants.swift in Sources */,
 			);
