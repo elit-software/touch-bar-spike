@@ -1,26 +1,18 @@
-//
-//  AppDelegate.swift
-//  TouchBarSpike
-//
-//  Created by Tiago Martinho on 31/10/2016.
-//  Copyright © 2016 elit. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        allowTouchBarToBeCustomized()
     }
 
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+    func allowTouchBarToBeCustomized() {
+        if #available(OSX 10.12.1, *) {
+            if NSClassFromString("NSTouchBar") != nil {
+                NSApplication.shared().isAutomaticCustomizeTouchBarMenuItemEnabled = true
+            }
+        }
     }
-
-
 }
 
