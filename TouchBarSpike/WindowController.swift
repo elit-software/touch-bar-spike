@@ -26,7 +26,3 @@ extension WindowController: NSTouchBarDelegate {
         }
     }
 }
-
-fileprivate extension NSTouchBarItemIdentifier {
-    static let text = NSTouchBarItemIdentifier("\(Constants.id).text")
-}
