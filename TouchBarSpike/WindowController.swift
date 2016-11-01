@@ -27,10 +27,6 @@ extension WindowController: NSTouchBarDelegate {
     }
 }
 
-struct Constants {
-    static let id = "com.elit.TouchBarSpike"
-}
-
 fileprivate extension NSTouchBarCustomizationIdentifier {
     static let touchBar = NSTouchBarCustomizationIdentifier("\(Constants.id).touchBar")
 }
