@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EA69F8991DC7DA96005885AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69F8981DC7DA96005885AA /* AppDelegate.swift */; };
-		EA69F89B1DC7DA96005885AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69F89A1DC7DA96005885AA /* ViewController.swift */; };
 		EA69F89D1DC7DA96005885AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA69F89C1DC7DA96005885AA /* Assets.xcassets */; };
 		EA69F8A01DC7DA96005885AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA69F89E1DC7DA96005885AA /* Main.storyboard */; };
 		EA69F8AB1DC7DA96005885AA /* TouchBarSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69F8AA1DC7DA96005885AA /* TouchBarSpikeTests.swift */; };
+		EA837ECC1DC8E98400218CBE /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA837ECB1DC8E98400218CBE /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +27,13 @@
 /* Begin PBXFileReference section */
 		EA69F8951DC7DA96005885AA /* TouchBarSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA69F8981DC7DA96005885AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA69F89A1DC7DA96005885AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA69F89C1DC7DA96005885AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA69F89F1DC7DA96005885AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA69F8A11DC7DA96005885AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA69F8A61DC7DA96005885AA /* TouchBarSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA69F8AA1DC7DA96005885AA /* TouchBarSpikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarSpikeTests.swift; sourceTree = "<group>"; };
 		EA69F8AC1DC7DA96005885AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA837ECB1DC8E98400218CBE /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +75,8 @@
 		EA69F8971DC7DA96005885AA /* TouchBarSpike */ = {
 			isa = PBXGroup;
 			children = (
-				EA69F8981DC7DA96005885AA /* AppDelegate.swift */,
-				EA69F89A1DC7DA96005885AA /* ViewController.swift */,
-				EA69F89C1DC7DA96005885AA /* Assets.xcassets */,
-				EA69F89E1DC7DA96005885AA /* Main.storyboard */,
-				EA69F8A11DC7DA96005885AA /* Info.plist */,
+				EA837ECB1DC8E98400218CBE /* WindowController.swift */,
+				EA837ECD1DC8EA1900218CBE /* Supporting Files */,
 			);
 			path = TouchBarSpike;
 			sourceTree = "<group>";
@@ -91,6 +88,17 @@
 				EA69F8AC1DC7DA96005885AA /* Info.plist */,
 			);
 			path = TouchBarSpikeTests;
+			sourceTree = "<group>";
+		};
+		EA837ECD1DC8EA1900218CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA69F8981DC7DA96005885AA /* AppDelegate.swift */,
+				EA69F89C1DC7DA96005885AA /* Assets.xcassets */,
+				EA69F89E1DC7DA96005885AA /* Main.storyboard */,
+				EA69F8A11DC7DA96005885AA /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA69F89B1DC7DA96005885AA /* ViewController.swift in Sources */,
+				EA837ECC1DC8E98400218CBE /* WindowController.swift in Sources */,
 				EA69F8991DC7DA96005885AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 				EA69F8B11DC7DA96005885AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA69F8B21DC7DA96005885AA /* Build configuration list for PBXNativeTarget "TouchBarSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				EA69F8B41DC7DA96005885AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
